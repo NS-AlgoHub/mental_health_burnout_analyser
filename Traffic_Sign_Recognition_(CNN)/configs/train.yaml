@@ -1,0 +1,14 @@
+{
+    "model": {
+        "type": "logistic_regression",
+        "max_iter": 300
+    },
+    "data": {
+        "path": "data/raw/sample.csv",
+        "test_size": 0.2
+    },
+    "mlflow": {
+        "tracking_uri": "mlruns",
+        "experiment": "13_project_13"
+    }
+}
