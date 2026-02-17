@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import numpy as np
 
-
 st.set_page_config(page_title='Mental Health Burnout Predictor')
 
 with open('model/burnout_model.pkl','rb') as f:
